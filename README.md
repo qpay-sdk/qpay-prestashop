@@ -1,0 +1,13 @@
+# QPay PrestaShop Module
+
+QPay V2 payment module for PrestaShop 8.x.
+
+## Install
+
+1. Upload `qpay/` folder to `/modules/`
+2. Install from Back Office > Modules
+3. Configure API credentials
+
+## License
+
+MIT
