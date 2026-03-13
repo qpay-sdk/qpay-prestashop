@@ -10,7 +10,7 @@ class QPay extends PaymentModule
     {
         $this->name = 'qpay';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'QPay SDK';
         $this->need_instance = 0;
         $this->bootstrap = true;

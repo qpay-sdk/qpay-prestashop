@@ -2,7 +2,7 @@
 <module>
     <name>qpay</name>
     <displayName><![CDATA[QPay Payment]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Accept payments via QPay V2 payment gateway. QR code and bank app deeplinks for Mongolian payments.]]></description>
     <author><![CDATA[QPay SDK]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
