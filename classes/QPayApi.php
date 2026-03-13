@@ -69,4 +69,9 @@ class QPayApi
             'object_id' => $invoiceId,
         ]);
     }
+
+    public function getPayment(string $paymentId): ?array
+    {
+        return $this->request('GET', '/v2/payment/' . $paymentId);
+    }
 }

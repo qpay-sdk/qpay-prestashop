@@ -15,7 +15,7 @@ class QPayPaymentModuleFrontController extends ModuleFrontController
             'invoice_receiver_code' => $customer->email,
             'invoice_description' => 'PrestaShop Order',
             'amount' => $total,
-            'callback_url' => Configuration::get('QPAY_CALLBACK_URL') ?: $this->context->link->getModuleLink('qpay', 'validation'),
+            'callback_url' => Configuration::get('QPAY_CALLBACK_URL') ?: $this->context->link->getModuleLink('qpay', 'callback', [], true),
         ]);
 
         if (!$invoice || empty($invoice['invoice_id'])) {
